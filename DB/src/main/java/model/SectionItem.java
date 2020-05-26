@@ -1,3 +1,5 @@
+package model;
+
 import com.google.gson.annotations.Expose;
 
 import java.util.ArrayList;
@@ -17,6 +19,7 @@ public class SectionItem {
         this.title = title;
         this.summary = summary;
         this.url = url;
+        sectionItems = new ArrayList<>();
     }
 
     public String getTitle() {

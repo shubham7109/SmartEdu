@@ -1,11 +1,12 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import humanities.PerformingArts;
+import model.SectionItem;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.awt.geom.Area;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -49,6 +50,12 @@ public class Main {
 
             case "Humanities":
                 SectionItem item1 = new SectionItem("Arts","","");
+                SectionItem item1_performingArgs = new SectionItem("Performing Arts","","");
+                item1_performingArgs.setSectionItems(PerformingArts.getPerformingArtsList(doc));
+                ArrayList<SectionItem> performingArts = new ArrayList<>();
+                performingArts.add(item1_performingArgs);
+                item1.addItem(item1_performingArgs);
+                item1.addItem(new SectionItem("Visual Arts","",""));
                 SectionItem item2 = new SectionItem("History","","");
                 SectionItem item3 = new SectionItem("Languages and literature","","");
                 SectionItem item4 = new SectionItem("Law","","");
