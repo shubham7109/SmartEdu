@@ -1,12 +1,13 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import humanities.PerformingArts;
 import model.SectionItem;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import parser.ParserHandler;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -15,6 +16,7 @@ public class Main {
     static SectionItem sectionItem;
     static Document doc;
     static String url_wiki = "https://en.wikipedia.org/wiki/Outline_of_academic_disciplines";
+    static ParserHandler parserHandler;
 
     public static void main(String[] args) throws IOException {
         sectionItem = new SectionItem(
@@ -22,7 +24,7 @@ public class Main {
                 "The following outline is provided as an overview of and topical guide to academic disciplines",
                 "https://en.wikipedia.org/wiki/Outline_of_academic_disciplines");
         doc = Jsoup.connect(url_wiki).get();
-
+        parserHandler = new ParserHandler(doc);
         Elements elements = doc.select("h2");
         ArrayList<SectionItem> sectionItems1 = new ArrayList<>();
         for(Element row : elements){
@@ -43,29 +45,23 @@ public class Main {
         createGSON();
     }
 
-    private static ArrayList<SectionItem> get_H3_items(String parentTitle) {
+    private static ArrayList<SectionItem> get_H3_items(String title) {
 
         ArrayList<SectionItem> innerSectionItem = new ArrayList<>();
-        switch (parentTitle){
+        switch (title){
 
             case "Humanities":
-                SectionItem item1 = new SectionItem("Arts","","");
-                SectionItem item1_performingArgs = new SectionItem("Performing Arts","","");
-                item1_performingArgs.setSectionItems(PerformingArts.getPerformingArtsList(doc));
-                ArrayList<SectionItem> performingArts = new ArrayList<>();
-                performingArts.add(item1_performingArgs);
-                item1.addItem(item1_performingArgs);
-                item1.addItem(new SectionItem("Visual Arts","",""));
-                SectionItem item2 = new SectionItem("History","","");
-                SectionItem item3 = new SectionItem("Languages and literature","","");
+                SectionItem item1;
+                SectionItem item2;
+                SectionItem item3;
                 SectionItem item4 = new SectionItem("Law","","");
                 SectionItem item5 = new SectionItem("Philosophy","","");
                 SectionItem item6 = new SectionItem("Theology","","");
-                innerSectionItem.add(item1);
-                innerSectionItem.add(item2);
-                innerSectionItem.add(item3);
-                innerSectionItem.add(item4);
-                innerSectionItem.add(item5);
+                innerSectionItem.add(parserHandler.parseArts());
+                innerSectionItem.add(parserHandler.parseHistory());
+                innerSectionItem.add(parserHandler.parseLanguageAndLiterature());
+                innerSectionItem.add(parserHandler.parseLaw());
+                innerSectionItem.add(parserHandler.parsePhilosophy());
                 innerSectionItem.add(item6);
                 break;
 
@@ -129,7 +125,21 @@ public class Main {
         builder.excludeFieldsWithoutExposeAnnotation();
         Gson gson = builder.setPrettyPrinting().create();
         String jsonString = gson.toJson(sectionItem);
-        System.out.println(jsonString);
+        //System.out.println(jsonString);
+
+        writeToFile(jsonString);
+    }
+
+    private static void writeToFile(String jsonString) {
+        try {
+            FileWriter myWriter = new FileWriter("out.json");
+            myWriter.write(jsonString);
+            myWriter.close();
+            System.out.println("Successfully wrote to the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
     }
 
 }
