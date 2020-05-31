@@ -19,10 +19,7 @@ public class Main {
     static ParserHandler parserHandler;
 
     public static void main(String[] args) throws IOException {
-        sectionItem = new SectionItem(
-                "Outline_of_academic_disciplines",
-                "The following outline is provided as an overview of and topical guide to academic disciplines",
-                "https://en.wikipedia.org/wiki/Outline_of_academic_disciplines");
+        sectionItem = new SectionItem("Outline_of_academic_disciplines");
         doc = Jsoup.connect(url_wiki).get();
         parserHandler = new ParserHandler(doc);
         Elements elements = doc.select("h2");
@@ -33,7 +30,7 @@ public class Main {
 
             if(row.getAllElements().hasClass("mw-headline")){
                 String title = row.getElementsByClass("mw-headline").get(0).id();
-                SectionItem sectionItem1 = new SectionItem(title,"","");
+                SectionItem sectionItem1 = new SectionItem(title);
                 //System.out.println(row.getElementsByClass("mw-headline").get(0).id());
 
                 sectionItem1.setSectionItems(get_H3_items(title));
@@ -51,38 +48,25 @@ public class Main {
         switch (title){
 
             case "Humanities":
-                SectionItem item1;
-                SectionItem item2;
-                SectionItem item3;
-                SectionItem item4 = new SectionItem("Law","","");
-                SectionItem item5 = new SectionItem("Philosophy","","");
-                SectionItem item6 = new SectionItem("Theology","","");
-                innerSectionItem.add(parserHandler.parseArts());
-                innerSectionItem.add(parserHandler.parseHistory());
-                innerSectionItem.add(parserHandler.parseLanguageAndLiterature());
-                innerSectionItem.add(parserHandler.parseLaw());
-                innerSectionItem.add(parserHandler.parsePhilosophy());
-                innerSectionItem.add(item6);
+                innerSectionItem.add(ParserHandler.Humanities.parseArts());
+                innerSectionItem.add(ParserHandler.Humanities.parseHistory());
+                innerSectionItem.add(ParserHandler.Humanities.parseLanguageAndLiterature());
+                innerSectionItem.add(ParserHandler.Humanities.parseLaw());
+                innerSectionItem.add(ParserHandler.Humanities.parsePhilosophy());
+                innerSectionItem.add(ParserHandler.Humanities.parseTheology());
                 break;
 
-            case "Social_sciences":
-                item1 = new SectionItem("Anthropology","","");
-                item2 = new SectionItem("Archaeology","","");
-                item3 = new SectionItem("Economics","","");
-                item4 = new SectionItem("Human geography","","");
-                item5 = new SectionItem("Political science","","");
-                item6 = new SectionItem("Psychology","","");
-                SectionItem item7 = new SectionItem("Sociology","","");
-                SectionItem item8 = new SectionItem("Social Work","","");
-                innerSectionItem.add(item1);
-                innerSectionItem.add(item2);
-                innerSectionItem.add(item3);
-                innerSectionItem.add(item4);
-                innerSectionItem.add(item5);
-                innerSectionItem.add(item6);
-                innerSectionItem.add(item7);
-                innerSectionItem.add(item8);
+            case "Social_Sciences":
+                innerSectionItem.add(ParserHandler.SocialSciences.parseAnthropology());
+                innerSectionItem.add(ParserHandler.SocialSciences.parseArchaeology());
+                innerSectionItem.add(ParserHandler.SocialSciences.parseEconomics());
+                innerSectionItem.add(ParserHandler.SocialSciences.parseHumanGeography());
+                innerSectionItem.add(ParserHandler.SocialSciences.parsePoliticalScience());
+                innerSectionItem.add(ParserHandler.SocialSciences.parsePsychology());
+                innerSectionItem.add(ParserHandler.SocialSciences.parseSociology());
+                innerSectionItem.add(ParserHandler.SocialSciences.parseSocialWork());
                 break;
+                /*
             case "Natural_Sciences":
                 item1 = new SectionItem("Biology","","");
                 item2 = new SectionItem("Chemistry","","");
@@ -112,7 +96,7 @@ public class Main {
                 innerSectionItem.add(item1);
                 innerSectionItem.add(item2);
                 innerSectionItem.add(item3);
-                break;
+                break;*/
 
         }
 

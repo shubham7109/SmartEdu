@@ -12,7 +12,6 @@ import java.util.List;
 
 public class PerformingArts {
 
-
     public static ArrayList<SectionItem> getList(Document doc){
 
         ArrayList<SectionItem> arrayList = new ArrayList<>();
@@ -22,9 +21,8 @@ public class PerformingArts {
 
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
-                //System.out.println(title);
-                SectionItem item1 = new SectionItem(title,"","");
+                String title = element.child(0).attr("href");
+                SectionItem item1 = new SectionItem(title);
                 item1.setSectionItems(getInnerList(element.childNodes().get(4).childNodes()));
                 arrayList.add(item1);
             }
@@ -40,8 +38,8 @@ public class PerformingArts {
         for(Node node : nodes){
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
-                SectionItem item1 = new SectionItem(title,"","");
+                String title = element.child(0).attr("href");
+                SectionItem item1 = new SectionItem(title);
                 try{
                     item1.setSectionItems(getMoreInnerList(element.childNodes().get(2).childNodes()));
                 }catch (Exception e){
@@ -63,8 +61,8 @@ public class PerformingArts {
         for(Node node : nodes){
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
-                SectionItem item1 = new SectionItem(title,"","");
+                String title = element.child(0).attr("href");
+                SectionItem item1 = new SectionItem(title);
                 sectionItems.add(item1);
                 //System.out.println(title);
             }

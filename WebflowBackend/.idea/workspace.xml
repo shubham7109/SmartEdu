@@ -20,32 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac0d2deb-28a9-4f2a-ad8d-788da169f476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/SampleSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SectionItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/model/SectionItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/model/SectionItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/parser/ParserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/parser/ParserHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/LanguageAndLiterature.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/LanguageAndLiterature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Law.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Law.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Philosophy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Philosophy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/PerformingArts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/PerformingArts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/VisualArts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/VisualArts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/out.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/out.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartEdu_Firebase/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartEdu_Firebase/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartEdu_Firebase/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartEdu_Firebase/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SmartEdu_Firebase/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/model/SectionItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/model/SectionItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/parser/ParserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/parser/ParserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/LanguageAndLiterature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/LanguageAndLiterature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Law.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Law.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Philosophy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Philosophy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/PerformingArts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/PerformingArts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/VisualArts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/VisualArts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utils/AcademicCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utils/AcademicCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,51 +145,51 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590735057780">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590814516091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590735057780" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590638687683" />
-    <state width="1877" height="439" key="GridCell.Tab.0.bottom" timestamp="1590738255975">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590814516091" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.0.center" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590817642092" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.0.left" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="357" key="GridCell.Tab.0.center/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590817642091" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.0.right" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590817642091" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.1.bottom" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590817642091" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.1.center" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590815947704" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.1.left" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="296" key="GridCell.Tab.1.center/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590815947704" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
-    <state width="1877" height="439" key="GridCell.Tab.1.right" timestamp="1590738255975">
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="296" key="GridCell.Tab.1.left/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590815947704" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1590818626212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="439" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590738255975" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590729763505" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590818626212" />
+    <state width="1877" height="296" key="GridCell.Tab.1.right/1920.21.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1590815947704" />
     <state x="478" y="98" key="SettingsEditor" timestamp="1590639775382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,14 +208,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="5" />
+          <line>119</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo typeName="org.apache.http.client.methods.HttpPost" fieldName="entity" />
+        <PinnedItemInfo typeName="org.json.JSONObject" fieldName="map" />
+        <PinnedItemInfo typeName="java.util.HashMap$Node" fieldName="value" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>

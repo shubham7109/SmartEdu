@@ -12,7 +12,7 @@ public class Main {
 
         AcademicCollections academicCollections = new AcademicCollections(jsonObject.getJSONArray("sectionItems"));
         try {
-            academicCollections.updateCollection();
+            academicCollections.startUpdate();
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }

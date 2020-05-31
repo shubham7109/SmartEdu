@@ -19,9 +19,9 @@ public class VisualArts {
 
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
+                String title = element.child(0).attr("href");
                 //System.out.println(title);
-                SectionItem item1 = new SectionItem(title,"","");
+                SectionItem item1 = new SectionItem(title);
                 item1.setSectionItems(getInnerList(element.childNodes().get(2).childNodes()));
                 arrayList.add(item1);
             }
@@ -36,8 +36,8 @@ public class VisualArts {
         for(Node node : nodes){
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
-                SectionItem item1 = new SectionItem(title,"","");
+                String title = element.child(0).attr("href");
+                SectionItem item1 = new SectionItem(title);
                 try{
                     item1.setSectionItems(getMoreInnerList(element.childNodes().get(getULIndex(element.childNodes())).childNodes()));
                 }catch (Exception e){
@@ -58,8 +58,8 @@ public class VisualArts {
         for(Node node : nodes){
             if(node instanceof Element){
                 Element element = (Element) node;
-                String title = element.child(0).attr("title");
-                SectionItem item1 = new SectionItem(title,"","");
+                String title = element.child(0).attr("href");
+                SectionItem item1 = new SectionItem(title);
                 sectionItems.add(item1);
                 //System.out.println(title);
             }
