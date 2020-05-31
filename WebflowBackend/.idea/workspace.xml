@@ -20,23 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac0d2deb-28a9-4f2a-ad8d-788da169f476" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/SampleSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SectionItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/model/SectionItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/model/SectionItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/parser/ParserHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/parser/ParserHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/History.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/LanguageAndLiterature.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/LanguageAndLiterature.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Law.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/Law.class" afterDir="false" />
@@ -44,27 +34,12 @@
       <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/PerformingArts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/PerformingArts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/VisualArts.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/build/classes/java/main/sections/humanities/arts/VisualArts.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/out.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/out.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/model/SectionItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/model/SectionItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DB/src/main/java/parser/ParserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/parser/ParserHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/History.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/LanguageAndLiterature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/LanguageAndLiterature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Law.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Law.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Philosophy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/Philosophy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/PerformingArts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/PerformingArts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/VisualArts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DB/src/main/java/sections/humanities/arts/VisualArts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utils/AcademicCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utils/AcademicCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AcademicCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
